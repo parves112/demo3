@@ -1,0 +1,115 @@
+/*===============*/
+  /*navbar deign*/
+/*===============*/
+#logo {
+    width: 50px;
+    display: inline flow-root list-item;
+    font-size: 34px;
+    background: #3292a6;;
+    color: #ffffffe0;
+    font-family: arial;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.navbar{
+    box-shadow: 2px 2px 5px #05a4bd;
+    background: #fff;
+    opacity: 0.9;
+
+}
+
+.navbar .nav-item{
+    font-size: 1.4rem;
+    padding-left: 20px;
+ }
+.navbar .collapse .nav-link{
+    color: #252525;
+}
+.navbar .collapse .nav-link:hover{
+    color: #05a4bd;
+}
+/*======================*/
+   /*navbar deign end*/
+/*======================*/
+
+/*==========showcase section design start=========*/
+#show_case{
+  margin-top: 5.9rem;
+  
+}
+#show_case .background_color{
+    background: rgba(50,146,156,0.7);;
+}
+#show_case .main-overly{
+    background-image: url(../img/img_ny.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#show_case .edit{
+    border-radius: 0px!important;
+}
+#show_case .edit:hover{
+    color: #000;
+    }
+/*==========showcase section design end=========*/
+
+/*==========card menu design start=========*/
+ .borderColor{
+    border: 1px solid #0069d9;
+ }
+ #cardMenu .castomCss{
+    border-radius: 0px;
+ }
+/*==========card menu design end=========*/
+
+/*========== authors start ============*/
+#authorsSection .imgCss{
+    width: 80px;
+    height: 80px;
+    margin-top: -52px;
+}
+#authorsSection .iconCss{
+    font-size: 23px;
+}
+#authorsSection .card:hover {
+	color: white;
+    background: #007bff;
+    transition:1s;
+    margin-top: -15px;
+}
+
+#authorsSection .card:hover .iconCss{
+    color: white;
+    transition:0.4s;
+}
+#authorsSection .col-lg-3 {
+    margin-top: 37px;
+}
+#authorsSection .px-2 {
+    width: 57px;
+    height: 43px;
+}
+
+#contactMenu img {
+    border-radius: 50%;
+    width: 348px;
+    height: 348px;
+    border: 2px solid #007bff;
+}
+
+/*========== authors end ============*/
+
+/*======== media Query start=========*/
+@media(min-width: 992px){
+  #cardMenu .castomCss{
+    border-radius: 5px;
+ }
+}
+@media(min-width: 992px){
+  #cardMenu .castomCss{
+    border-radius: 5px;
+ }
+}
+/*======== media Query end=========*/
